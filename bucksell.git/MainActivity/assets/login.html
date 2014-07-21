@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en" xml:lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<title>Account Login</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<base href="http://www.bucksell.com/" />
+<meta name="keywords" content="sell, trade, auction, bid, offer, buy, shopping cart, shop, college, one-stop, order, wish-list, charity, local, university, exchange, online" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="http://www.bucksell.com/catalog/view/theme/shoppica2/stylesheet/screen.css.php?v=2.2.1&amp;is_mobile=0&amp;is_touch=0&amp;language=ltr&amp;price_design=label&amp;border=0&amp;font_body=Open+Sans&amp;font_navigation=Open+Sans&amp;font_navigation_weight=600&amp;font_navigation_style=default&amp;font_navigation_size=14&amp;font_intro=Open+Sans&amp;font_intro_weight=300&amp;font_intro_style=default&amp;font_intro_size=28&amp;font_title=Open+Sans&amp;font_title_weight=300&amp;font_title_style=default&amp;font_price=default&amp;font_price_weight=default&amp;font_price_style=default&amp;font_button=Open+Sans&amp;font_button_weight=600&amp;font_button_style=default&amp;font_button_size=14" media="screen" />
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="http://www.bucksell.com/catalog/view/theme/shoppica2/stylesheet/ie.css.php?v=2.2.1&amp;theme=shoppica2" media="screen" />
+<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Open Sans:700italic,700,400italic,400,600,300&amp;subset=latin' rel='stylesheet' type='text/css'>
+<style type="text/css">body.s_layout_fixed {    background-color: #edf3f5;    background-image: url('http://www.bucksell.com/catalog/view/theme/shoppica2/images/texture_3.png');    background-repeat: repeat;    background-position: top left;    background-attachment: scroll;  }  .s_main_color,  #twitter li span a,  .s_button_add_to_cart,  .s_box h2,  .box .box-heading,  .checkout-heading a,  #welcome_message a  {    color: #4cb1ca;  }  #footer_categories h2 a:hover  {    color: #4cb1ca !important;  }  .s_main_color_bgr,  #cart .s_icon,  #shop_contacts .s_icon,  .s_list_1 li:before,  .s_button_add_to_cart .s_icon,  #intro .s_button_prev,  #intro .s_button_next,  .buttons .button,  .noty_message button.s_main_color_bgr,  #cart_menu .s_icon,  .s_notify .s_success_24,  .s_button_wishlist .s_icon,  .s_button_compare .s_icon,  .s_product_row .s_row_number,  .jcarousel-prev,  .jcarousel-next  {    background-color: #4cb1ca;  }  .buttons input[type=submit].button,  .buttons input[type=button].button,  .noty_message button.s_main_color_bgr  {    border: 3px solid #4cb1ca;  }  .s_secondary_color,  a:hover,  #categories > ul > li > a,  #footer_categories h2,  #footer_categories h2 a,  .pagination a,  #view_mode .s_selected a,  #welcome_message a:hover  {    color: #f12b63;  }  #content a:hover,  #shop_info a:hover,  #footer a:hover,  #intro h1 a:hover,  #intro h2 a:hover,  #content a:hover,  #shop_info a:hover,  #footer a:hover,  #breadcrumbs a:hover  {    color: #f12b63 !important;  }  .s_secondary_color_bgr,  #site_search .s_search_button,  #view_mode .s_selected .s_icon,  #view_mode a:hover .s_icon,  #menu_home a:hover,  .pagination a:hover,  .s_button_add_to_cart:hover .s_icon,  .s_button_remove:hover,  .s_notify .noty_close:hover,  .s_notify .s_failure_24,  #product_share .s_review_write:hover .s_icon,  .s_button_wishlist:hover .s_icon,  .s_button_compare:hover .s_icon,  .noty_message button.s_secondary_color_bgr  {    background-color: #f12b63;  }  .noty_message button.s_secondary_color_bgr {    border: 3px solid #f12b63;  }  #intro {    background-color: #e6f6fa;  }  #intro, #breadcrumbs a {    color: #103e47;  }  #intro h1, #intro h1 *, #intro h2, #intro h2 * {    color: #4cb1ca;  }  #intro .s_rating {    ~background-color: #e6f6fa;  }  .s_label .s_price  {    background-color: #4cb1ca;  }  .s_label .s_promo_price  {    background-color: #f12b63;  }  .s_label .s_price,  .s_label .s_price *  {    color: #ffffff;  }  .s_label .s_promo_price,  .s_label .s_promo_price *  {    color: #ffffff;  }  .s_plain .s_price,  .s_plain .s_price *  {    color: #000000;  }  .s_plain .s_old_price,  .s_plain .s_old_price *  {    color: #000000 !important;  }  .s_plain .s_promo_price,  .s_plain .s_promo_price *  {    color: #ff3000;  }    *::-moz-selection {    color: #fff;    background-color: #4cb1ca;  }  *::-webkit-selection {    color: #fff;    background-color: #4cb1ca;  }  *::selection {    color: #fff;    background-color: #4cb1ca;  }     </style>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js"></script>
+
+<script type="text/javascript">var $sReg=new function(){function c(){var a=Array.prototype.slice.call(arguments);a.unshift({});return b.apply(null,a)}function b(c){for(var d=1,e=arguments.length;d<e;d++){var f=arguments[d];if(typeof f!="object")continue;for(var g in f){var h=f[g],i=c[g];c[g]=i&&typeof h=="object"&&typeof i=="object"?b(i,h):a(h)}}return c}function a(b){var c;switch(typeof obj){case"object":c={};for(var d in b)c[d]=a(b[d]);break;case"array":c=[];for(var e=0,f=b.length;e<f;e++)c[e]=a(b[e]);break;default:return b}return c}var d={conf:{},set:function(a,b){var d=a.split("/");if(d.shift()!==""){return false}if(d.length>0&&d[d.length-1]==""){d.pop()}var e={};var f=e;var g=d.length;if(g>0){for(i=0;i<g-1;i++){f[d[i]]={};f=f[d[i]]}f[d[g-1]]=b;this.conf=c(this.conf,e)}else{this.conf=b}},get:function(a){var b=a.split("/");if(b.shift()!==""){return null}if(b.length>0&&b[b.length-1]=="")b.pop();var c=this.conf;var d=true;var e=0;if(c[b[e]]===undefined){return null}var f=b.length;while(d&&e<f){d=d&&c[b[e]]!==undefined;c=c[b[e]];e++}return c}};return d}
+$sReg.set('/tb/image_url', 'http://www.bucksell.com/image/');$sReg.set('/tb/theme_stylesheet_url', 'http://www.bucksell.com/catalog/view/theme/shoppica2/stylesheet/');$sReg.set('/tb/is_mobile', '0');$sReg.set('/tb/basename', 'shoppica2');$sReg.set('/tb/shopping_cart_url', 'http://www.bucksell.com/index.php?route=checkout/cart');$sReg.set('/tb/wishlist_url', 'http://www.bucksell.com/index.php?route=account/wishlist');$sReg.set('/tb/category_path', '0');$sReg.set('/tb/schemer_config', jQuery.parseJSON('{"path":"0","predefined_scheme":"Blue","colors":{"main":"4cb1ca","secondary":"f12b63","intro":"e6f6fa","intro_text":"103e47","intro_title":"4cb1ca","price":"4cb1ca","price_text":"ffffff","promo_price":"f12b63","promo_price_text":"ffffff","plain_price_text":"000000","plain_promo_price_text":"ff3000","background":"edf3f5","texture":"texture_3","texture_repeat":"repeat","texture_position":"top left","texture_attachment":"scroll"},"is_parent":"0","parent_vars":{"colors":[]}}'));$sReg.set('/lang/text_continue', 'Continue');$sReg.set('/lang/text_continue_shopping', 'Continue Shopping');$sReg.set('/lang/text_shopping_cart', 'Shopping Cart');$sReg.set('/lang/text_wishlist', 'Wishlist');</script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+          });
+</script>
+<link href="http://www.bucksell.com/image/data/favicon.png" rel="icon" />
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+//<![CDATA[
+var sc_project=8687472; 
+var sc_invisible=1; 
+var sc_security="f2100057"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter_xhtml.js'></"+"script>");
+//]]>
+</script>
+<noscript><div class="statcounter"><a title="free hit
+counter" href="http://statcounter.com/"
+class="statcounter"><img class="statcounter"
+src="http://c.statcounter.com/8687472/0/f2100057/1/"
+alt="free hit counter" /></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide --><script type="text/javascript"> if (!window.console) console = {log: function() {}}; </script>
+<!--<link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/ui/themes/ui-lightness/jquery-ui-1.8.16.custom.css" />-->
+
+
+</head>
+
+<body class="s_layout_fixed s_2_cols s_page_account_login">
+
+<div id="fb-root"></div>
+<script type="text/javascript">
+  window.fbAsyncInit = function() {
+    FB.init({
+                  status: true,
+      cookie: true,
+      xfbml: true,
+      oauth : true
+    });
+  };
+  (function(d){
+    var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+    js = d.createElement('script'); js.id = id; js.async = true;
+    js.src = "//connect.facebook.net/en_US/all.js";
+    d.getElementsByTagName('head')[0].appendChild(js);
+  }(document));
+</script>
+<div id="wrapper">
+
+
+  <!-- ---------------------- -->
+  <!--     I N T R O          -->
+  <!-- ---------------------- -->
+  <div id="intro">
+    <div id="intro_wrap">
+      <div class="s_wrap">
+
+        <h1>Account Login</h1>
+      </div>
+    </div>
+  </div>
+  <!-- end of intro -->
+
+  <!-- ---------------------- -->
+  <!--      C O N T E N T     -->
+  <!-- ---------------------- -->
+  <div id="content" class="s_wrap">
+
+    
+    <div id="login_page" class="s_main_col">
+
+            
+            
+            
+      <div class="s_2col_wrap clearfix">
+       
+        <div class="s_col s_1_2">
+          <h2 class="s_title_1"><span>New Customer</span></h2>
+          <div class="s_row_3 s_h_170 clearfix">
+            <p>By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.</p>
+          </div>
+          <span class="clear s_sep border_ddd"></span>
+          <a href="http://www.bucksell.com/index.php?route=account/register" class="s_button_1 s_main_color_bgr"><span class="s_text">Continue</span></a>
+        </div>
+
+        <div class="s_col s_1_2">
+          <h2 class="s_title_1"><span>Returning Customer</span></h2>
+          <form id="login" class="login_page clearfix" action="http://www.bucksell.com/index.php?route=account/login" method="post" enctype="multipart/form-data">
+            <div class="s_row_3 clearfix">
+              I am a returning customer<br /><br />
+              <label><strong>E-Mail Address:</strong></label>
+              <input type="text" name="email" value="" size="35" class="required email" title="Please, enter a valid email" />
+            </div>
+            <div class="s_row_3 s_sep clearfix">
+              <span class="clear"></span>
+              <label><strong>Password:</strong></label>
+              <input type="password" name="password" value="" size="35" class="required" title="Please, enter your password" />
+            </div>
+
+            <span class="clear s_sep border_ddd"></span>
+						
+            <div class="s_submit">
+              <div class="s_nav s_size_2 left">
+                <ul class="s_mb_0 clearfix">
+                  <li><a href="http://www.bucksell.com/index.php?route=account/forgotten">Forgotten Password</a></li>
+                </ul>
+              </div>
+              <a class="s_button_1 s_main_color_bgr" onclick="$('#login').submit();"><span class="s_text">Login</span></a>
+                          </div>
+          </form>
+        </div>
+
+      </div>
+
+      
+    </div>
+
+        
+    
+    <script type="text/javascript"><!--
+    $('#login input').keydown(function(e) {
+      if (e.keyCode == 13) {
+        $('#login').submit();
+      }
+    });
+    //--></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/jquery.validate.min.js"></script>
+    <script type="text/javascript">
+      jQuery.validator.setDefaults({
+          errorElement: "p",
+          errorClass: "s_error_msg",
+          errorPlacement: function(error, element) {
+              error.insertAfter(element);
+          },
+          highlight: function(element, errorClass, validClass) {
+              $(element).addClass("error_element").removeClass(validClass);
+              $(element).parent("div").addClass("s_error_row");
+          },
+          unhighlight: function(element, errorClass, validClass) {
+              $(element).removeClass("error_element").addClass(validClass);
+              $(element).parent("div").removeClass("s_error_row");
+          }
+      });
+      $("#login").validate();
+    </script>
+
+  </div>
+  <!-- end of content -->
+
+
+

@@ -1,0 +1,146 @@
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/index.html.
+Started removing stop words.
+Building database.
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/syllabus.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/syllabus.html.
+Started removing stop words.
+Building database.
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/schedule.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/schedule.html.
+Started removing stop words.
+Building database.
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/resources.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/resources.html.
+Started removing stop words.
+Building database.
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/review1.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/review1.html.
+Started removing stop words.
+Building database.
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/review2.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/review2.html.
+Could not locate base url.
+Parsing web-page failed.
+host: eg.bucknell.edu, path: /~cs363/2014-spring/review2.html
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/review3.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/review3.html.
+Could not locate base url.
+Parsing web-page failed.
+host: eg.bucknell.edu, path: /~cs363/2014-spring/review3.html
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/gitlab-intro.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/gitlab-intro.html.
+Started removing stop words.
+Building database.
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/labs/lab01-sys-program.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/labs/lab01-sys-program.html.
+Started removing stop words.
+Building database.
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/labs/lab02-tcp-socket.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/labs/lab02-tcp-socket.html.
+Started removing stop words.
+Building database.
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/labs/lab03-tcp-experiment.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/labs/lab03-tcp-experiment.html.
+Started removing stop words.
+Building database.
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/labs/lab04-udp-and-structured-data.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/labs/lab04-udp-and-structured-data.html.
+Started removing stop words.
+Building database.
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/labs/lab05-super-server-utmp.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/labs/lab05-super-server-utmp.html.
+Started removing stop words.
+Building database.
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/labs/lab06-unreliable-medium.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/labs/lab06-unreliable-medium.html.
+Started removing stop words.
+Building database.
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/labs/lab07-process-ether-traffic.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/labs/lab07-process-ether-traffic.html.
+Started removing stop words.
+Building database.
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/labs/wireshark-packet-capture.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/labs/wireshark-packet-capture.html.
+Started removing stop words.
+Building database.
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/labs/lab08-ip-packet-analyzer.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/labs/lab08-ip-packet-analyzer.html.
+Started removing stop words.
+Building database.
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/labs/lab09-work-with-CRC.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/labs/lab09-work-with-CRC.html.
+Could not locate base url.
+Parsing web-page failed.
+host: eg.bucknell.edu, path: /~cs363/2014-spring/labs/lab09-work-with-CRC.html
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/labs/lab10-linux-rsh.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/labs/lab10-linux-rsh.html.
+Could not locate base url.
+Parsing web-page failed.
+host: eg.bucknell.edu, path: /~cs363/2014-spring/labs/lab10-linux-rsh.html
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/labs/lab11-ssl-Java.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/labs/lab11-ssl-Java.html.
+Could not locate base url.
+Parsing web-page failed.
+host: eg.bucknell.edu, path: /~cs363/2014-spring/labs/lab11-ssl-Java.html
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/projects/client-server-project-part1.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/projects/client-server-project-part1.html.
+Started removing stop words.
+Building database.
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/projects/client-server-project.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/projects/client-server-project.html.
+Could not locate base url.
+Parsing web-page failed.
+host: eg.bucknell.edu, path: /~cs363/2014-spring/projects/client-server-project.html
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/projects/emulation-project.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/projects/emulation-project.html.
+Could not locate base url.
+Parsing web-page failed.
+host: eg.bucknell.edu, path: /~cs363/2014-spring/projects/emulation-project.html
+dequeued host: eg.bucknell.edu, path: /~cs363/2014-spring/./index.html
+
+Extracting information from web page host: eg.bucknell.edu path: /~cs363/2014-spring/./index.html.
+Started removing stop words.
+Building database.
+dequeued host: ietf.org, path: /rfc.html
+
+Extracting information from web page host: ietf.org path: /rfc.html.
+Could not locate base url.
+Parsing web-page failed.
+host: ietf.org, path: /rfc.html
+dequeued host: cs.purdue.edu, path: /homes/dec/netbooks.html
+
+Extracting information from web page host: cs.purdue.edu path: /homes/dec/netbooks.html.
+Could not locate base url.
+Parsing web-page failed.
+host: cs.purdue.edu, path: /homes/dec/netbooks.html
+dequeued host: nthelp.com, path: /icmp.html
+
+Extracting information from web page host: nthelp.com path: /icmp.html.
+Could not locate base url.
+Parsing web-page failed.
+host: nthelp.com, path: /icmp.html
+dequeued host: tcpdump.org, path: /pcap/pcap.html
+
+Extracting information from web page host: tcpdump.org path: /pcap/pcap.html.

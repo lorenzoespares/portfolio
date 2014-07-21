@@ -1,0 +1,59 @@
+for: ./url-extractor eg.bucknell.edu /~cs363/2014-spring/
+
+adding html chunks into linked list pagadata.
+Length of char* stored in node 1 is 512
+Length of char* stored in node 2 is 512
+Length of char* stored in node 3 is 512
+Length of char* stored in node 4 is 512
+Length of char* stored in node 5 is 512
+Length of char* stored in node 6 is 512
+Length of char* stored in node 7 is 512
+Length of char* stored in node 8 is 512
+Length of char* stored in node 9 is 512
+Length of char* stored in node 10 is 512
+Length of char* stored in node 11 is 512
+Length of char* stored in node 12 is 512
+Length of char* stored in node 13 is 512
+Length of char* stored in node 14 is 512
+Length of char* stored in node 15 is 512
+Length of char* stored in node 16 is 512
+Length of char* stored in node 17 is 512
+Length of char* stored in node 18 is 512
+Length of char* stored in node 19 is 114
+total data receieved: 9330
+Begin parsing html chunks.
+building raw list.
+
+
+List Length: 32
+url 0: http://www.eg.bucknell.edu/~cs363/2014-spring/syllabus.html
+url 1: http://www.eg.bucknell.edu/~cs363/2014-spring/schedule.html
+url 2: http://www.eg.bucknell.edu/~cs363/2014-spring/resources.html
+url 3: http://www.eg.bucknell.edu/~cs363/2014-spring/gdb-sheet.txt
+url 4: http://www.eg.bucknell.edu/~cs363/2014-spring/review1.html
+url 5: http://www.eg.bucknell.edu/~cs363/2014-spring/review2.html
+url 6: http://www.eg.bucknell.edu/~cs363/2014-spring/review2.pptx
+url 7: http://www.eg.bucknell.edu/~cs363/2014-spring/review2.pdf
+url 8: http://www.eg.bucknell.edu/~cs363/2014-spring/review3.html
+url 9: http://www.eg.bucknell.edu/~cs363/2014-spring/gitlab-intro.html
+url 10: http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab01-sys-program.html
+url 11: http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab02-tcp-socket.html
+url 12: http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab03-tcp-experiment.html
+url 13: http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab04-udp-and-structured-data.html
+url 14: http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab05-super-server-utmp.html
+url 15: http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab06-process-ether-traffic.html
+url 16: http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab07-ip-packet-analyzer.html
+url 17: http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab08-unreliable-medium.html
+url 18: http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab09-work-with-CRC.html
+url 19: http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab10-linux-rsh.html
+url 20: http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab11-ssl-Java.html
+url 21: http://www.eg.bucknell.edu/~cs363/2014-spring/projects/client-server-project-part1.html#duedates
+url 22: http://www.eg.bucknell.edu/~cs363/2014-spring/projects/client-server-project-part1.html
+url 23: http://www.eg.bucknell.edu/~cs363/2014-spring/projects/client-server-project-part2.html
+url 24: http://www.eg.bucknell.edu/~cs363/2014-spring/projects/client-server-project.html#p1part3
+url 25: http://www.eg.bucknell.edu/~cs363/2014-spring/projects/client-server-project.html#p1part4
+url 26: http://www.eg.bucknell.edu/~cs363/2014-spring/projects/emulation-project.html
+url 27: http://www.eg.bucknell.edu/~cs363/2014-spring/code/
+url 28: http://www.cs.fsu.edu/~baker/devices/lxr/http/source/linux/net/ipv4/tcp_cong.c
+url 29: http://www.bucknell.edu/x1324.xml
+url 30: http://www.bucknell.edu/x1325.xml

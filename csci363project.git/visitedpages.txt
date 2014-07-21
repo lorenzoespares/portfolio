@@ -1,0 +1,17 @@
+http://www.eg.bucknell.edu/~cs363/2014-spring/gitlab-intro.html
+http://www.eg.bucknell.edu/~cs363/2014-spring/index.html
+http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab02-tcp-socket.html
+http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab03-tcp-experiment.html
+http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab04-udp-and-structured-data.html
+http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab06-unreliable-medium.html
+http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab09-work-with-CRC.html
+http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab08-ip-packet-analyzer.html
+http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab07-process-ether-traffic.html
+http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab05-super-server-utmp.html
+http://www.eg.bucknell.edu/~cs363/2014-spring/labs/lab01-sys-program.html
+http://www.eg.bucknell.edu/~cs363/2014-spring/labs/wireshark-packet-capture.html
+http://www.eg.bucknell.edu/~cs363/2014-spring/projects/client-server-project-part1.html
+http://www.eg.bucknell.edu/~cs363/2014-spring/resources.html
+http://www.eg.bucknell.edu/~cs363/2014-spring/review1.html
+http://www.eg.bucknell.edu/~cs363/2014-spring/schedule.html
+http://www.eg.bucknell.edu/~cs363/2014-spring/syllabus.html

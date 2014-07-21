@@ -1,0 +1,47 @@
+This file consists of all things that need to be completed and all known bugs that need to be fixed
+
+To do list:
+	(searchserver.c) 
+		1. Incorporate invertedIndex.gdb and dbtools in server
+		2. Remove hashutils (in this phase we cannot use hsearch.h
+	(crawler.c)
+		1. add pdftohtml parsing functionality
+		2. add .xml and .txt parsing functionality
+		3. there are cases where base url is not present, so extractor ignores it, fix extractor
+	(dbtools.c)
+		1. make sure to check if '|', '<', and '>' exist in value.dptr
+		3. Write documentation to explain how to use it 
+
+All known bugs in project that need to be fixed:
+	crawler.c:
+		1. Handle cases where there is only a host name, no path name. 
+
+	(searchserver.c)
+		1. Does not work with chrome (at least for me).
+
+
+Tom needs to document the following code and/or explain what each thing does.
+	dbtools.c
+	GDBM stuff (invertedIndex.gdb)
+	queueADT.c
+
+Notes:
+
+Checking memory usage by writing bash script that calls program
+./crawler <host> <path>
+watch 'grep VmSize /proc/PID/status >> log'
+
+The ISO C99 standard specifies that these macros must only be defined if explicitly requested.
+
+#define __STDC_FORMAT_MACROS
+#include <inttypes.h>
+
+... now PRIu64 will work
+
+Debug print
+#ifdef DEBUG
+# define DEBUG_PRINT(x) printf x
+#else
+# define DEBUG_PRINT(x) do {} while (0)
+#endif
+

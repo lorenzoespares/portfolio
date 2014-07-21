@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        android:actionLayout="@layout/activity_login"/>     
+    <item
+        android:id="@+id/account"
+        android:title="@string/account"
+    />
+    <item
+        android:id="@+id/action_search"
+        android:title="@+string/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:actionViewClass="android.widget.SearchView" />
+    <item
+        android:id="@+id/wishlist"
+        android:title="@string/wishlist"
+    />
+    <item
+        android:id="@+id/shoppingcart"
+        android:title="@string/shoppingcart"
+    />
+    <item
+        android:id="@+id/checkout"
+        android:title="@string/checkout"
+    />
+
+</menu>

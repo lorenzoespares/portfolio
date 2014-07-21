@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>97E35C7E-082A-4B97-8D22-A1327D6702F5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GitExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5BE1839A-096D-443D-B880-7B620470B2DD</key>
+		<string>ssh://gitlab.bucknell.edu/loe001/csci379.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GitExample/GitExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5BE1839A-096D-443D-B880-7B620470B2DD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://gitlab.bucknell.edu/loe001/csci379.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5BE1839A-096D-443D-B880-7B620470B2DD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5BE1839A-096D-443D-B880-7B620470B2DD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>csci379</string>
+		</dict>
+	</array>
+</dict>
+</plist>

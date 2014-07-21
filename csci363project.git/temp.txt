@@ -1,0 +1,1002 @@
+Extracting information from web page.
+Building url link list.
+Populating cleanString.
+populating wordList from splitting cleanStr.
+Extraction: destroying htmlString, cleanString, & baseURL.
+Store: a ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 88
+Store: an ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 6
+Store: academic ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 6
+Store: apache ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: analyze ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: analyzer ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: ascii ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: accomplish ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: accept ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: and ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 18
+Store: addition ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: are ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: abet ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: alive ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: ability ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+Store: align ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+Store: able ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: above ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: applicable ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: appropriate ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: apply ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: april ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: across ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: assignment ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: auto ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: attention ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: authorship ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: any ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: b ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: be ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 9
+Store: background ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: bucknell ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 8
+Store: body ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: been ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: breaches ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: before ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: big ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: build ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: brief ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: baker ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: bold ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: believe ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: blockquote ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 20
+Store: border ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: base ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: based ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: better ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: bytes ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: c ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: cs ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 7
+Store: clarified ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: class ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: charset ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: crc ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: csci ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: code ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 8
+Store: check ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: clearly ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: cheat ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: create ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: client ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 6
+Store: collaboration ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: collected ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: collection ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: cellpadding ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: color ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: cellspacing ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: commands ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: complete ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: common ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+Store: component ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: computer ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: computerscience ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: communicate ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: computing ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: community ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: cong ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: contact ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: conscience ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: center ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: content ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: connection ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: contorl ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: control ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: concurrent ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: conduct ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: capture ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: captured ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: corresponding ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: careful ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: circumstance ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: css ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: cases ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: citizen ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: course ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: courseinfo ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: courses ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: d ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: deadline ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: deans ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: documents ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: decision ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: doctype ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: dtd ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: dddc ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: due ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 13
+Store: duedates ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: define ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: department ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: directly ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: directory ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: desperate ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: design ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: dishonest ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: dishonesty ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: describe ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: distributed ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: desired ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: date ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: database ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: detail ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: dates ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: div ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: devices ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: e ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: ee ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 11
+Store: etag ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: examples ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: evaluate ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: each ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: encoding ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: end ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: ends ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: endeavors ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: exercise ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: every ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: effectively ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: effort ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: engine ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: engineering ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: ether ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: ethernet ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: explain ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: explained ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: expected ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: experiements ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: experiment ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: est ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: extensions ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: edu ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 6
+Store: emulation ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: equiv ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: f ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: faculty ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: fri ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: friday ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: file ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: files ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: font ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: final ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: function ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: from ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: fips ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: for ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 7
+Store: forthrightly ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: formulate ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: fastcgi ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: fsu ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: four ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: go ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: goal ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: graded ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: gdb ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: guide ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: gmt ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: gitlab ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: getting ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: give ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: h ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 18
+Store: hr ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: head ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: header ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+Store: href ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 35
+Store: html ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 33
+Store: hhmts ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: handbook ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: honor ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: hypotheses ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: her ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: his ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: http ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 10
+Store: have ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: how ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: i ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+Store: id ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 30
+Store: individual ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: identify ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: information ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: immediately ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: implement ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: implementation ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: impossible ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: its ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: instance ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: instructor ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: inserthtml ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: integrity ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: intro ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: introduction ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: interpret ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: ipv ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: js ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: jan ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: java ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: javascript ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: keep ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: know ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: knowledge ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: li ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 59
+Store: learn ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: learning ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: lab ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 24
+Store: labs ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 14
+Store: laboratory ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: lecture ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: lectures ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: lie ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: left ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: link ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: length ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: language ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: linux ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+Store: loose ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: lxr ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: last ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: let ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: late ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: layer ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: me ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 6
+Store: mdash ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: measurement ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: mod ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 6
+Store: modified ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: medium ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: meet ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: main ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: make ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: mar ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: margin ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: meta ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: mathematics ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: max ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: no ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: needs ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: name ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: nor ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: not ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: network ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: networks ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: notes ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: ok ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 29
+Store: one ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: openssl ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: org ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: opportunities ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: oppose ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: outcomes ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: p ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 39
+Store: phase ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: public ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: packet ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+Store: please ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: pdf ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: page ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: pages ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: pair ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: principles ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: policy ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: process ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: project ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 11
+Store: projects ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 8
+Store: problem ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: problems ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: protocol ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: program ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: programming ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: per ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: part ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+Store: person ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: performance ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: persons ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: passenger ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: passing ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: pptx ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: python ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: phusion ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: powerpoint ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: pay ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: questions ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: read ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: reading ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: rgb ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: right ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: rsh ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: rel ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: related ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: remember ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: remote ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: ranges ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: reporting ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: repository ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: requirements ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: reside ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: results ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: responsibility ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: resource ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: resources ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: review ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 9
+Store: reviews ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: s ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: span ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: search ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: start ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: starts ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: submit ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: src ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: socket ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: sucure ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: stevens ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: specific ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: steal ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: steps ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: sheet ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: software ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: schedule ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: slides ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: science ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: ssl ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: syllabus ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: solve ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: solution ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: summary ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: simulating ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: stop ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: should ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: super ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: sure ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: structured ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: server ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 8
+Store: servers ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: services ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: spring ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: script ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: sys ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: system ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: systems ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: set ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: source ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: student ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 7
+Store: students ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: style ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 6
+Store: stylesheet ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: tr ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 38
+Store: team ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 6
+Store: traces ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: traffic ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: teams ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: transitional ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: table ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: tue ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 20
+Store: them ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: tuesday ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 11
+Store: these ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: tight ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: this ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: talk ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: timeout ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: two ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: tbody ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: tcp ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 8
+Store: type ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+Store: term ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: three ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: through ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: test ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: txt ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: title ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: thu ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: text ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 7
+Store: us ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 11
+Store: under ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: understand ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: understanding ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: used ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: urged ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: unix ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: university ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: utmp ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: udp ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: unpv ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: unreliable ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: validate ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: violations ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: vary ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: vertical ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: version ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: w ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: we ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: what ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: web ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: width ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: where ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: wsgi ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: weight ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: will ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 10
+Store: work ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+Store: working ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: wireshark ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: with ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+Store: www ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 7
+Store: x ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: xml ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: you ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: your ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+crawler: destroying tempURlList and tempWordList.
+host: eg.bucknell.edu, path: /~cs363/2014-spring/syllabus.html
+Extracting information from web page.
+Building url link list.
+Populating cleanString.
+populating wordList from splitting cleanStr.
+Extraction: destroying htmlString, cleanString, & baseURL.
+Store successful.
+Store: at ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 22
+Store successful.
+Store successful.
+Store successful.
+Store: architecture ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store successful.
+Store: access ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: accessibility ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: addressing ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: addison ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store successful.
+Store: affect ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: adjustments ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: ask ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: all ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+Store successful.
+Store: allocation ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: alone ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: among ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: about ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: amp ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: application ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: applications ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+Store: approach ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store: also ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: answer ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: assignments ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: absent ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: absence ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: absences ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: abstraction ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: authenticity ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: attend ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: attendance ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: although ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: active ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: actively ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: advance ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: advanced ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: adverse ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: anyone ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: br ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 29
+Store successful.
+Store successful.
+Store successful.
+Store: bigger ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: beginning ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: being ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: books ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 6
+Store successful.
+Store successful.
+Store: but ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: both ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store successful.
+Store: changed ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: challenge ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: challenges ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: classroom ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: classes ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store successful.
+Store successful.
+Store: critically ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: criticism ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: collaborative ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: colleagues ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: csma ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: comments ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: completed ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: completion ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: comer ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: comprehensive ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: communicated ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: communicating ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: communications ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: can ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store successful.
+Store successful.
+Store: contents ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: confidentiality ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: cannot ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: contributions ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: constructive ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: choose ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: correction ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: corequisite ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: case ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: catalog ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: could ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: cause ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store successful.
+Store: do ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: drafts ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: documented ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: didn ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: different ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: deliver ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: dana ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: duration ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: discovered ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: description ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: descriptions ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: discussion ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: dot ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: detection ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: details ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+Store: determined ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: davie ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: develop ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: development ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: developing ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: down ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: en ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 28
+Store successful.
+Store: email ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: exams ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 6
+Store: etc ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: excused ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: exciting ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: encouraged ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: exercirses ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: exercises ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+Store: elective ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: everyone ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: effectiveness ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: engaged ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: edition ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 12
+Store: existing ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store: experience ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: experiences ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: earn ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: error ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: easily ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: either ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: enthusiasm ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: entry ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: emulates ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: environment ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: focuses ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: fade ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: feel ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: feedback ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: flexibility ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: follows ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store: fine ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: fundamentals ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: ftp ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: formed ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: first ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store successful.
+Store successful.
+Store: grade ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 6
+Store: grades ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: great ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: good ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store successful.
+Store successful.
+Store: given ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store successful.
+Store successful.
+Store successful.
+Store: hierarchy ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: hall ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 6
+Store successful.
+Store: hard ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: hardship ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: has ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store: hour ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: hours ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store successful.
+Store: however ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: include ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: includes ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: independently ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: index ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: ideas ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: identified ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: iii ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: illness ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: important ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: issues ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store successful.
+Store: into ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: internet ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: internets ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: internetworking ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: interviews ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: involve ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: involving ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: invested ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: j ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: just ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: justification ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: justified ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: k ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store successful.
+Store: kurose ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: kaufmann ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: l ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store successful.
+Store: lead ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: learned ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store: learners ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: laboratories ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: like ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store successful.
+Store successful.
+Store successful.
+Store successful.
+Store successful.
+Store: letter ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: later ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: literature ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: level ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: levels ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: layers ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: m ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 9
+Store successful.
+Store successful.
+Store: meaning ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: much ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store: media ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: modify ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: model ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: middle ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store successful.
+Store: meetings ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: mwf ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: might ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: mail ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store successful.
+Store: member ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: members ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: meng ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: mention ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: more ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: morgan ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: most ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 6
+Store successful.
+Store: material ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: motivate ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: maximize ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: may ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: nd ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: ndash ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: need ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: noon ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: note ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: networked ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: networking ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: new ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: o ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: oualline ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: operating ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: overview ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: office ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store successful.
+Store: other ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+Store: others ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: objectives ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: ospf ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: opportunity ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: our ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: out ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: outside ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: often ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: practical ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: packets ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: packing ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: prerequisite ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: previous ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: prentice ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store successful.
+Store: primary ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: prior ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: point ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: points ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: prof ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: phone ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: professional ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: properties ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: people ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: protocols ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store successful.
+Store: programs ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store: productive ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: papers ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: participating ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: participation ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: portion ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: permission ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: particular ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: particularly ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: pursue ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: pursuit ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: posed ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: posix ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: put ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: peterson ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: r ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: rd ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 6
+Store successful.
+Store: reach ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: really ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: reason ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: reasons ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: rfcs ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: receive ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: recent ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: reduction ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: reference ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: rago ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: regular ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: registrar ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: reilly ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: role ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: reliable ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: rules ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: relatively ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: rip ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: request ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: ross ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: research ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: respective ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: resolved ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: rather ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: routing ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store: so ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: standards ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: shared ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: statement ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: statements ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: sharing ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: stack ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store successful.
+Store: such ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store: successful ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: second ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: security ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: see ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 5
+Store: spend ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: specifically ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: specified ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: safe ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: scheduled ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: switching ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store successful.
+Store: some ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store successful.
+Store: something ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: somewhat ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: send ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: sooner ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: shown ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: shows ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: short ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: struggling ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: seriously ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store successful.
+Store: smtp ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: studying ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: t ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store successful.
+Store: that ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 16
+Store: travel ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: transport ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: technical ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: technology ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: today ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: they ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: there ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: their ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: together ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: third ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: take ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: taking ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: time ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store successful.
+Store successful.
+Store: though ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: thoughts ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: top ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 9
+Store successful.
+Store: topic ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: topics ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: typically ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store successful.
+Store: textbook ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: textbooks ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: unavoidable ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store: use ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store: unexcused ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store: unless ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: unpacking ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: usually ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: ve ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: view ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: vol ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: valign ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 4
+Store: volume ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store successful.
+Store: visit ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store successful.
+Store successful.
+Store: wed ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: week ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: weekly ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: write ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store: which ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: written ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store successful.
+Store: want ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store successful.
+Store: wesley ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 3
+Store successful.
+Store successful.
+Store successful.
+Store: xiannong ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 1
+Store: xmeng ==> http://www.eg.bucknell.edu/~cs363/2014-spring/ 2
+Store successful.
+Store successful.
+crawler: destroying tempURlList and tempWordList.
